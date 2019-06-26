@@ -5,7 +5,7 @@
     <p>Where would you click to hide an object so it´s not visible anymore?</p>
     <img src="Usertest TransformScriptMaterials_open.png" alt="Usertest FudgeStartup" width="1305" height="639">
     <script>
-        document.onclick = link();
+         document.addEventListener("click", link)
 
         function link() {
             window.location.href = "/Task6";

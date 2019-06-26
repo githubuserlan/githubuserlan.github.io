@@ -5,7 +5,7 @@
     <p>Where would you click to pan the view?</p>
     <img src="Usertest TransformScriptMaterials_open.png" alt="Usertest FudgeStartup" width="1305" height="639">
     <script>
-        document.onclick = link();
+         document.addEventListener("click", link)
 
         function link() {
             window.location.href = "/End";
