@@ -1,3 +1,5 @@
+
+//please work
 namespace GoldenLayoutTest {
     let myLayout: GoldenLayout;
     function create(){
